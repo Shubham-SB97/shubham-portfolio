@@ -1,0 +1,46 @@
+body {
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.profile-img {
+  border: 5px solid #fff;
+}
+
+.table td {
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.btn {
+  transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+  opacity: 1;
+  color: #ff9800;
+}
+
+
+td{
+  background-color: #000;
+  color: white;
+}
+
+a{
+  color: white !important;
+}
+
+.profile-img {
+  width: 50vh; /* Ensures the image is proportional to viewport height */
+  height: 50vh; /* Ensures circular shape */
+  object-fit: cover; /* Prevents distortion */
+  border-radius: 50%; /* Makes it circular */
+  border: 5px solid white; /* Optional: Adds a white border */
+  max-width: 100%; /* Ensures responsiveness */
+}
+

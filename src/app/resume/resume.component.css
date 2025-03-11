@@ -1,0 +1,27 @@
+/* Custom styles for the resume component */
+.container-fluid {
+    background-color: #343a40; /* Dark background */
+    color: white; /* White text */
+  }
+  
+  .btn-primary, .btn-success {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .lead {
+      font-size: 1rem;
+    }
+  
+    .btn-primary, .btn-success {
+      font-size: 1rem;
+      padding: 8px 16px;
+    }
+  }

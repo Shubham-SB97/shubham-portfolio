@@ -1,0 +1,60 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-black rounded" id="ftco-navbar">
+  <div class="container">
+    <a class="navbar-brand" routerLink="/"><i> Portfolio</i></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#ftco-nav"
+      aria-controls="ftco-nav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="ftco-nav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a routerLink="/home" routerLinkActive="active" class="nav-link">
+            <span>Home</span>
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a routerLink="/resume" routerLinkActive="active" class="nav-link">
+            <span>Resume</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a routerLink="/projects" routerLinkActive="active" class="nav-link">
+            <span>Projects</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a routerLink="/certification" routerLinkActive="active" class="nav-link">
+            <span>Certification</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a routerLink="/about" routerLinkActive="active" class="nav-link">
+            <span>About</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/contact" routerLinkActive="active" class="nav-link">
+            <span>Contact</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid mt-1 bg-dark">
+  <router-outlet></router-outlet>
+</div>

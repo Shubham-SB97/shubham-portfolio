@@ -1,0 +1,29 @@
+
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: black !important;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+
+  h2 {
+    color: #f5f5f5;
+  }
+  
+  
+  a {
+    color: #f9fafc;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+     background: #01080f;
+  }
+  
+  a:hover {
+   
+    background: #007bff;
+  }
+  
